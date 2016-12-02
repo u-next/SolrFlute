@@ -11,6 +11,8 @@ Class generator plugin for [DBFlute](http://dbflute.seasar.org/) to access to [S
 - locate `schema.xml` for Solr to connect to and add name to the beginning of its filename to identify schema (e.g. `mysolr_schema.xml`)
 - Add properties to `config.properties` and `env.properties`, and adjust themaccording to your condition (see `properties` files in this repo for instance)
    - Add a set of properties per schema
+- Add schema information to `freeGenMap.dfprop` (see `dfprop/freeGenMap.dfprop` for instance)
+   - Add a set of the information per schema
 - Execute 'freegen' task of DBFlute
    - by `mvn` task
    - by `manage.sh`
